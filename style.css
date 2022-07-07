@@ -1,0 +1,66 @@
+body {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1541119638723-c51cbe2262aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+}
+
+.weatherWrapper {
+    background-color: black;
+    opacity: 0.8;
+    width: 450px;
+    border-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+#searchBar {
+    opacity: 0.5;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.weatherWrapper > div {
+    margin-left: 20px; 
+    padding: 2px;
+}
+
+.temp {
+    font-weight: bolder;
+    font-size: 1.8rem
+}
+
+.wind {
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+
